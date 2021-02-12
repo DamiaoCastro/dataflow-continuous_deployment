@@ -1,0 +1,24 @@
+{
+  "name": "dataflow-continuous_deployment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dataflow.js",
+  "dependencies": {
+    "googleapis": "^67.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamiaoCastro/dataflow-continuous_deployment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamiaoCastro/dataflow-continuous_deployment/issues"
+  },
+  "homepage": "https://github.com/DamiaoCastro/dataflow-continuous_deployment#readme"
+}
