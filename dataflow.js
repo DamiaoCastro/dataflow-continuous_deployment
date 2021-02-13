@@ -35,12 +35,15 @@ async function launch() {
     //     }
     // }, {});
 
+
     const response = await dataflow.projects.locations.jobs.update({
         location: "europe-west1",
         projectId: "damiao-project-1",
         jobId: "2021-02-12_07_09_14-3724392685566488458",
         requestBody: {
             "id": "2021-02-12_07_09_14-3724392685566488458",
+            name: "test_6",
+            location: "europe-west1",
             "projectId": "damiao-project-1",
             requestedState: "JOB_STATE_CANCELLED"
         }
